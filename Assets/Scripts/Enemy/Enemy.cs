@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
         {
             player.ApplyDamage(_damage);
             Debug.Log("Бах");
+            Die();
         }
 
         Die();
