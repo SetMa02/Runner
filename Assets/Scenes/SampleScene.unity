@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 28242676}
   - component: {fileID: 28242675}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DedZone
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -660,7 +660,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 519420031}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 50
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -831,7 +831,7 @@ PrefabInstance:
     - target: {fileID: 6061938336191859382, guid: a14b7dcb49775cd4c895fd72f4d84b75,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.2823377
+      value: -6.88
       objectReference: {fileID: 0}
     - target: {fileID: 6061938336191859382, guid: a14b7dcb49775cd4c895fd72f4d84b75,
         type: 3}
