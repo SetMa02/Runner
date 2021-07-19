@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private int _health;
 
     public event UnityAction<int> HealthChanged;
+    public event UnityAction Died;
 
     public void ApplyDamage(int damage)
     {
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
 
     public void Die()
     {
-    
+        Died?.Invoke();
+        
     }
 }
